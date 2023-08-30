@@ -1,0 +1,156 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+hr {
+    background-color: black;
+    border: solid;
+    border-top: 1px solid #ccc;
+    border-radius: 50%;
+	margin: auto;
+    width: 1000px;
+
+    opacity: 0.5;
+}
+.hr2 {
+    position: relative;
+    top: 180px;
+}
+body {
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 10px;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-list li a:hover {
+    border-bottom: 2px solid white;
+}
+h1 {
+    position: relative;
+    top: 10px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.circle-container {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin: auto; 
+    position: relative;
+    top: 10px;
+}
+
+.circle-container img {
+    width: 100%;
+    height: auto;
+    display: block; 
+}
+
+.p1 {
+    position: absolute;
+    margin: auto;
+    top: 400px;
+    left: 300px;
+
+}
+.first-p {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 25px;
+}
+.second-p {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 0px;
+}
+.p2 {
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+    margin: auto;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    top: 300px;
+    
+}
+.grid-container img {
+    max-width: 100%;
+    height: auto;
+}
+.myimages {
+    box-sizing: border-box;
+    margin: auto;
+}
+.cert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 300px;
+
+}
+.cert img {
+    max-width: 100%; 
+    
+    height: auto;
+}
+.contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 400px;
+    
+
+}
+.contacts div {
+    margin: auto;
+}
+.footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        top: 400px;
+        bottom: 0;
+        width: 100%;
+}
